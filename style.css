@@ -48,7 +48,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: aliceblue;
+    background-color: rgb(248, 252, 255);
 }
 
 .btnContainer {
