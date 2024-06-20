@@ -1,0 +1,58 @@
+.black-hovered {
+    opacity: 0.2;
+}
+
+.allDivs {
+    background-color: rgb(247, 247, 247);
+}
+
+.btnAndDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+}
+.container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    width: 160px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+
+.btn:hover {
+    background-color: rgb(19, 17, 17);
+    color: white;
+    box-shadow: 3px 3px 8px rgb(109, 102, 102);
+    transition-duration: 0.4s;
+}
+
+.everything {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
